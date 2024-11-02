@@ -17,7 +17,7 @@ public class Student {
 	
 
 	public static void main(String[] args) {
-		
+		System.out.println("debug starts");
 		Student cd=new Student();
 		cd.display1();
 		cd.display2();

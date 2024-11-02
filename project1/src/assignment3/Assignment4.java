@@ -24,7 +24,8 @@ public class Assignment4 {
 		
 		float result=op.div(sum,x6);
 		System.out.println("result is "+result);
-		
+		System.out.println("checking 1");
+		System.out.println("777ggg");
 		
 
 	}
