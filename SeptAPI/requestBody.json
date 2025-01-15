@@ -1,0 +1,20 @@
+{
+     "id": "{{id}}",
+     " Address": [
+       {
+         "Type": "Primary Address",
+         "House No": "7876",
+         "Landmark": "Sector 23 market",
+         "sector": "87"
+       },
+       {
+         "Type": "secondary address",
+         "House No": "7876",
+         "Landmark": "Sector 23 market",
+         "sector": "87"
+       }
+     ],
+     "firstname": "{{firstname}}",
+     "designation": "TL",
+     "lastname": "{{lastname}}"
+   }

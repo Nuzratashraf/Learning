@@ -7,14 +7,14 @@ public class Assignment4 {
 		
 		int i,j;
 		
+		int name=1;
 		
-		
-			for(i=0;i<=6;i++)
+			for(i=1;i<=4;i++)
 			{
-				for(j=0;j<=i;j++)
+				for(j=1;j<=i;j++)
 				{
 
-					System.out.print(i+1);
+					System.out.print(name++);
 					
 				}
 				
