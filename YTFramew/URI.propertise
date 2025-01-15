@@ -1,0 +1,6 @@
+QA_URI:http://localhost:3000/APIbatchfolks
+GET_ALL_REALURI:https://reqres.in/api/users?page=2
+GET_PARTICULAR_REALURI:https://reqres.in/api/users/2
+POST_REALURI:https://reqres.in/api/users
+PUT_REALURI:https://reqres.in/api/users/2
+DELETE_REALURI:https://reqres.in/api/users/2

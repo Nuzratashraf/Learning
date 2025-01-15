@@ -1,0 +1,58 @@
+2025-01-10 13:25:57,983 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://reqres.in:443
+2025-01-10 13:25:57,990 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to reqres.in:443
+2025-01-10 13:25:58,238 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2025-01-10 13:25:58,239 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2025-01-10 13:25:58,239 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2025-01-10 13:25:58,240 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2025-01-10 13:25:58,240 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2025-01-10 13:25:58,240 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: DELETE /api/users/2/DEEPK HTTP/1.1
+2025-01-10 13:25:58,240 [DEBUG] org.apache.http.wire  -  >> "DELETE /api/users/2/DEEPK HTTP/1.1[\r][\n]"
+2025-01-10 13:25:58,241 [DEBUG] org.apache.http.wire  -  >> "Content-Type: application/json[\r][\n]"
+2025-01-10 13:25:58,241 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2025-01-10 13:25:58,241 [DEBUG] org.apache.http.wire  -  >> "Host: reqres.in[\r][\n]"
+2025-01-10 13:25:58,241 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2025-01-10 13:25:58,241 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/23)[\r][\n]"
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.headers  - >> DELETE /api/users/2/DEEPK HTTP/1.1
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.headers  - >> Content-Type: application/json
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.headers  - >> Host: reqres.in
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/23)
+2025-01-10 13:25:58,242 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2025-01-10 13:25:58,596 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 204 No Content[\r][\n]"
+2025-01-10 13:25:58,597 [DEBUG] org.apache.http.wire  -  << "Date: Fri, 10 Jan 2025 07:55:57 GMT[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Content-Length: 0[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1736495757&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=60jcG0oiiRoe3bbmhDXfRiT4VQXNe0qkWWlJ0RsV45o%3D"}]}[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1736495757&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=60jcG0oiiRoe3bbmhDXfRiT4VQXNe0qkWWlJ0RsV45o%3D[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "Server: cloudflare[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "CF-RAY: 8ffb1b906f0880c8-BOM[\r][\n]"
+2025-01-10 13:25:58,598 [DEBUG] org.apache.http.wire  -  << "server-timing: cfL4;desc="?proto=TCP&rtt=39590&min_rtt=33894&rtt_var=20873&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3109&recv_bytes=783&delivery_rate=80635&cwnd=209&unsent_bytes=0&cid=8648ec3de88bc75f&ts=524&x=0"[\r][\n]"
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 204 No Content
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.headers  - << HTTP/1.1 204 No Content
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.headers  - << Date: Fri, 10 Jan 2025 07:55:57 GMT
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.headers  - << Content-Length: 0
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.headers  - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1736495757&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=60jcG0oiiRoe3bbmhDXfRiT4VQXNe0qkWWlJ0RsV45o%3D"}]}
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.headers  - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1736495757&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=60jcG0oiiRoe3bbmhDXfRiT4VQXNe0qkWWlJ0RsV45o%3D
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.headers  - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2025-01-10 13:25:58,599 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2025-01-10 13:25:58,600 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2025-01-10 13:25:58,600 [DEBUG] org.apache.http.headers  - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+2025-01-10 13:25:58,600 [DEBUG] org.apache.http.headers  - << Via: 1.1 vegur
+2025-01-10 13:25:58,600 [DEBUG] org.apache.http.headers  - << CF-Cache-Status: DYNAMIC
+2025-01-10 13:25:58,600 [DEBUG] org.apache.http.headers  - << Server: cloudflare
+2025-01-10 13:25:58,600 [DEBUG] org.apache.http.headers  - << CF-RAY: 8ffb1b906f0880c8-BOM
+2025-01-10 13:25:58,600 [DEBUG] org.apache.http.headers  - << server-timing: cfL4;desc="?proto=TCP&rtt=39590&min_rtt=33894&rtt_var=20873&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3109&recv_bytes=783&delivery_rate=80635&cwnd=209&unsent_bytes=0&cid=8648ec3de88bc75f&ts=524&x=0"
+2025-01-10 13:25:58,602 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2025-01-10 13:25:58,603 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@64984b0f
+2025-01-10 13:25:58,603 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely

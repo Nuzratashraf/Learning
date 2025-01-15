@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Command line test 3ae69209-157f-429f-9d34-7bdbdc7e5c44">
+    <classes>
+      <class name="org.testing.TestScripts.TC1"/>
+      <class name="org.testing.TestScripts.TC2"/>
+      <class name="org.testing.TestScripts.TC3"/>
+      <class name="org.testing.TestScripts.TC4"/>
+      <class name="org.testing.TestScripts.TC5"/>
+      <class name="org.testing.TestScripts.TC6"/>
+      <class name="org.testing.TestScripts.TC7"/>
+      <class name="org.testing.TestScripts.TC8"/>
+      <class name="org.testing.TestScripts.TC9_Post"/>
+      <class name="org.testing.TestScripts.TC10_GET"/>
+      <class name="org.testing.TestScripts.TC11_GETParticular"/>
+      <class name="org.testing.TestScripts.TC12_Update"/>
+      <class name="org.testing.TestScripts.TC13_Delete"/>
+      <class name="org.testing.TestScripts.TC14_GETAll_Real"/>
+      <class name="org.testing.TestScripts.TC15_GETParticular_Real"/>
+      <class name="org.testing.TestScripts.TC16_POST_Real"/>
+      <class name="org.testing.TestScripts.TC17_PUT_Real"/>
+      <class name="org.testing.TestScripts.TC18_DELETE_Real"/>
+    </classes>
+  </test> <!-- Command line test 3ae69209-157f-429f-9d34-7bdbdc7e5c44 -->
+  <test name="Command line test 3ae69209-157f-429f-9d34-7bdbdc7e5c44(failed)">
+    <classes>
+      <class name="org.testing.TestScripts.TC8">
+        <methods>
+          <include name="tc8"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC8 -->
+      <class name="org.testing.TestScripts.TC1">
+        <methods>
+          <include name="browserClose"/>
+          <include name="tc1"/>
+          <include name="browserInit"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
+      <class name="org.testing.TestScripts.TC6">
+        <methods>
+          <include name="tc6"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC6 -->
+      <class name="org.testing.TestScripts.TC13_Delete">
+        <methods>
+          <include name="getParticular"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC13_Delete -->
+      <class name="org.testing.TestScripts.TC12_Update">
+        <methods>
+          <include name="update"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC12_Update -->
+      <class name="org.testing.TestScripts.TC3">
+        <methods>
+          <include name="tc3"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC10_GET">
+        <methods>
+          <include name="getAll"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC10_GET -->
+      <class name="org.testing.TestScripts.TC4">
+        <methods>
+          <include name="tc4"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC11_GETParticular">
+        <methods>
+          <include name="getParticular"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC11_GETParticular -->
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="tc5"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC9_Post">
+        <methods>
+          <include name="post"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC9_Post -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC7">
+        <methods>
+          <include name="tc7"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC7 -->
+    </classes>
+  </test> <!-- Command line test 3ae69209-157f-429f-9d34-7bdbdc7e5c44(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
