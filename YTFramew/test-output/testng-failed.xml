@@ -10,7 +10,6 @@
     <classes>
       <class name="org.testing.TestScripts.TC1">
         <methods>
-          <include name="browserClose"/>
           <include name="tc1"/>
           <include name="browserInit"/>
         </methods>
