@@ -6,14 +6,4 @@
       <class name="org.testing.TestScripts.TC1"/>
     </classes>
   </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="org.testing.TestScripts.TC1">
-        <methods>
-          <include name="tc1"/>
-          <include name="browserInit"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC1 -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
